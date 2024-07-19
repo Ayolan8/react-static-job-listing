@@ -1,0 +1,46 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ :root{
+    
+   --Desaturated-Dark-Cyan: hsl(180, 29%, 50%);
+   --Desaturated2-Dark-Cyan: hsl(180, 46%, 90%);
+   /* ### Neutral */
+   /* background */
+   --Light-Grayish-Cyan : hsl(180, 52%, 96%);
+   /* (Filter Tablets) */
+   --Light2-Grayish-Cyan : hsl(180, 31%, 95%);
+   --Dark-Grayish-Cyan: hsl(180, 8%, 52%);
+   --Very-Dark-Grayish-Cyan : hsl(180, 14%, 20%);
+   }
+
+   body {
+      font-family: 'League S partan', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      background-color: var(--Light-Grayish-Cyan);
+   }
+
+   button {
+      padding: 10px;
+      font-size: 15px;
+      border-radius: 8px;
+      color: var(--Desaturated-Dark-Cyan);
+      background-color: var(--Light-Grayish-Cyan);
+      font-weight: 750;
+      border: none;
+      /* margin-right: 1.5rem; */
+      /* background-color: var(--Dark-Grayish-Cyan); */
+   }
+
+    .header {
+     
+   } 
+
+   .container {
+      /* background-color: var(--Light2-Grayish-Cyan); */
+      
+   }

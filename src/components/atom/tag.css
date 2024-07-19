@@ -1,0 +1,29 @@
+span {
+    color: var(--Light-Grayish-Cyan);
+    /* background-color: aqua; */
+    /* margin-right: 1rem; */
+    padding: 3px 10px;
+    font-size: 16px;
+    font-weight: 300;
+    /* width: 100px; */
+    display: inline-block;
+    text-align: center;
+    border-radius: 18px;
+    font-variant: small-caps;
+}
+
+.new {
+   background-color: var(--Desaturated-Dark-Cyan); 
+}
+
+.feature {
+    background-color: var(--Very-Dark-Grayish-Cyan);
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--Dark-Grayish-Cyan);
+    align-self: center;
+}
